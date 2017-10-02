@@ -10,3 +10,5 @@ Queries that do not return enumerable results are executed when the Execute meth
 ### Difference
 - If you create IQueryable, then the query may be converted to SQL and will run on the database server.
 - If you create IEnumerable, then all rows will be pulled into memory as objects before running the query
+
+[Read More](http://www.c-sharpcorner.com/UploadFile/a3d5d0/ienumerable-vs-iquerable/)
